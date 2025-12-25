@@ -11,13 +11,13 @@ from utils import plot_lines
 we can write
 
 $$
-\begin{cases}-x_1 + 3x_2 = 7, \\3x_1 + 2x_2 = 1,\end{cases}
+\begin{cases}-x_1 + 3x_2 = 7, \\ 3x_1 + 2x_2 = 1,\end{cases}
 $$
 
 as 
 
 $$
-\begin{bmatrix}-1 & 3 & 7 \\3 & 2 & 1\end{bmatrix}
+\begin{bmatrix}-1 & 3 & 7 \\ 3 & 2 & 1\end{bmatrix}
 $$
 
 This is the augmented matrix. It includes coefficients and constant values.
@@ -25,11 +25,11 @@ This is the augmented matrix. It includes coefficients and constant values.
 We divide that into 2 parts as A = coefficients and b = constants
 
 $$
-A = \begin{bmatrix}-1&  3\\3&2\end{bmatrix}
+A = \begin{bmatrix}-1&  3\\ 3&2\end{bmatrix}
 $$
 
 $$
-b = \begin{bmatrix}7\\1\end{bmatrix}
+b = \begin{bmatrix}7\\ 1\end{bmatrix}
 $$
 
 We show it on numpy as below
